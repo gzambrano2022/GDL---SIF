@@ -1,0 +1,34 @@
+# Entornos virtuales
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Datos y modelos
+/data/
+/temp_sofas/
+/weights/
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.onnx
+
+# Cache
+.cache/
+
+# Credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Resultados
+outputs/
+runs/
+logs/
+checkpoints/
